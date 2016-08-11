@@ -101,4 +101,4 @@ self.contentOffset = CGPointMake(0, contentOffsetY);
 就转换成tableview 在滑动了，再在何时的偏移时调刷新控件开始刷新。
 - 不过有个问题没处理好，写完之后给控制加navigationController时，起始偏移量变成了-64，很尴尬！
 - 知道的留下答案呀，谢谢啦。zzZZ~
-- 完整代码地址:https://github.com/Zhanggaoyi92/Alipay-8.11-update-demo
+- 邮箱地址：zhanggaoyi92@163.com
