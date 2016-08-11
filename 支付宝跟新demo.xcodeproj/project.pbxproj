@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B928C1451D5CC98100DD90F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C1441D5CC98100DD90F1 /* main.m */; };
+		B928C1481D5CC98100DD90F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C1471D5CC98100DD90F1 /* AppDelegate.m */; };
+		B928C14B1D5CC98100DD90F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B928C14A1D5CC98100DD90F1 /* ViewController.m */; };
+		B928C14E1D5CC98100DD90F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B928C14C1D5CC98100DD90F1 /* Main.storyboard */; };
+		B928C1501D5CC98100DD90F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B928C14F1D5CC98100DD90F1 /* Assets.xcassets */; };
+		B928C1531D5CC98100DD90F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B928C1511D5CC98100DD90F1 /* LaunchScreen.storyboard */; };
+		B94DD53A1D5CF19600D440A1 /* Fg_tableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B94DD5391D5CF19600D440A1 /* Fg_tableView.m */; };
+		D9B01C11C3125908F9B8FC98 /* libPods-支付宝跟新demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECCC1D6FBA635BBADEF51EE /* libPods-支付宝跟新demo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21684D8463A58A888F26F571 /* Pods-支付宝跟新demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-支付宝跟新demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-支付宝跟新demo/Pods-支付宝跟新demo.debug.xcconfig"; sourceTree = "<group>"; };
+		4ECCC1D6FBA635BBADEF51EE /* libPods-支付宝跟新demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-支付宝跟新demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F82D80667D5F79648F2B773 /* Pods-支付宝跟新demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-支付宝跟新demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-支付宝跟新demo/Pods-支付宝跟新demo.release.xcconfig"; sourceTree = "<group>"; };
+		B928C1401D5CC98100DD90F1 /* 支付宝跟新demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "支付宝跟新demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B928C1441D5CC98100DD90F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B928C1461D5CC98100DD90F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B928C1471D5CC98100DD90F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B928C1491D5CC98100DD90F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B928C14A1D5CC98100DD90F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B928C14D1D5CC98100DD90F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B928C14F1D5CC98100DD90F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B928C1521D5CC98100DD90F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B928C1541D5CC98100DD90F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94DD5381D5CF19600D440A1 /* Fg_tableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fg_tableView.h; sourceTree = "<group>"; };
+		B94DD5391D5CF19600D440A1 /* Fg_tableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fg_tableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B928C13D1D5CC98100DD90F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B01C11C3125908F9B8FC98 /* libPods-支付宝跟新demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1915C93C91BA6A6422119ED6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ECCC1D6FBA635BBADEF51EE /* libPods-支付宝跟新demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31B47A7009A8C819C2BA845B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21684D8463A58A888F26F571 /* Pods-支付宝跟新demo.debug.xcconfig */,
+				9F82D80667D5F79648F2B773 /* Pods-支付宝跟新demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B928C1371D5CC98100DD90F1 = {
+			isa = PBXGroup;
+			children = (
+				B928C1421D5CC98100DD90F1 /* 支付宝跟新demo */,
+				B928C1411D5CC98100DD90F1 /* Products */,
+				31B47A7009A8C819C2BA845B /* Pods */,
+				1915C93C91BA6A6422119ED6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B928C1411D5CC98100DD90F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B928C1401D5CC98100DD90F1 /* 支付宝跟新demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B928C1421D5CC98100DD90F1 /* 支付宝跟新demo */ = {
+			isa = PBXGroup;
+			children = (
+				B928C1461D5CC98100DD90F1 /* AppDelegate.h */,
+				B928C1471D5CC98100DD90F1 /* AppDelegate.m */,
+				B928C1491D5CC98100DD90F1 /* ViewController.h */,
+				B928C14A1D5CC98100DD90F1 /* ViewController.m */,
+				B94DD5381D5CF19600D440A1 /* Fg_tableView.h */,
+				B94DD5391D5CF19600D440A1 /* Fg_tableView.m */,
+				B928C14C1D5CC98100DD90F1 /* Main.storyboard */,
+				B928C14F1D5CC98100DD90F1 /* Assets.xcassets */,
+				B928C1511D5CC98100DD90F1 /* LaunchScreen.storyboard */,
+				B928C1541D5CC98100DD90F1 /* Info.plist */,
+				B928C1431D5CC98100DD90F1 /* Supporting Files */,
+			);
+			path = "支付宝跟新demo";
+			sourceTree = "<group>";
+		};
+		B928C1431D5CC98100DD90F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B928C1441D5CC98100DD90F1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B928C13F1D5CC98100DD90F1 /* 支付宝跟新demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B928C1571D5CC98100DD90F1 /* Build configuration list for PBXNativeTarget "支付宝跟新demo" */;
+			buildPhases = (
+				34F56C482CD4FE0DF086BAC5 /* [CP] Check Pods Manifest.lock */,
+				B928C13C1D5CC98100DD90F1 /* Sources */,
+				B928C13D1D5CC98100DD90F1 /* Frameworks */,
+				B928C13E1D5CC98100DD90F1 /* Resources */,
+				A4147F387660383CEEB54CF4 /* [CP] Embed Pods Frameworks */,
+				34FEB1877E17FEFA609E2905 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "支付宝跟新demo";
+			productName = "支付宝跟新demo";
+			productReference = B928C1401D5CC98100DD90F1 /* 支付宝跟新demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B928C1381D5CC98100DD90F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zgy_smile;
+				TargetAttributes = {
+					B928C13F1D5CC98100DD90F1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6KP9Y6YJ4P;
+					};
+				};
+			};
+			buildConfigurationList = B928C13B1D5CC98100DD90F1 /* Build configuration list for PBXProject "支付宝跟新demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B928C1371D5CC98100DD90F1;
+			productRefGroup = B928C1411D5CC98100DD90F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B928C13F1D5CC98100DD90F1 /* 支付宝跟新demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B928C13E1D5CC98100DD90F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B928C1531D5CC98100DD90F1 /* LaunchScreen.storyboard in Resources */,
+				B928C1501D5CC98100DD90F1 /* Assets.xcassets in Resources */,
+				B928C14E1D5CC98100DD90F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34F56C482CD4FE0DF086BAC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		34FEB1877E17FEFA609E2905 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-支付宝跟新demo/Pods-支付宝跟新demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4147F387660383CEEB54CF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-支付宝跟新demo/Pods-支付宝跟新demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B928C13C1D5CC98100DD90F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94DD53A1D5CF19600D440A1 /* Fg_tableView.m in Sources */,
+				B928C14B1D5CC98100DD90F1 /* ViewController.m in Sources */,
+				B928C1481D5CC98100DD90F1 /* AppDelegate.m in Sources */,
+				B928C1451D5CC98100DD90F1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B928C14C1D5CC98100DD90F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B928C14D1D5CC98100DD90F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B928C1511D5CC98100DD90F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B928C1521D5CC98100DD90F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B928C1551D5CC98100DD90F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B928C1561D5CC98100DD90F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B928C1581D5CC98100DD90F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21684D8463A58A888F26F571 /* Pods-支付宝跟新demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "支付宝跟新demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhifubao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B928C1591D5CC98100DD90F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F82D80667D5F79648F2B773 /* Pods-支付宝跟新demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "支付宝跟新demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhifubao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B928C13B1D5CC98100DD90F1 /* Build configuration list for PBXProject "支付宝跟新demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B928C1551D5CC98100DD90F1 /* Debug */,
+				B928C1561D5CC98100DD90F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B928C1571D5CC98100DD90F1 /* Build configuration list for PBXNativeTarget "支付宝跟新demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B928C1581D5CC98100DD90F1 /* Debug */,
+				B928C1591D5CC98100DD90F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B928C1381D5CC98100DD90F1 /* Project object */;
+}
