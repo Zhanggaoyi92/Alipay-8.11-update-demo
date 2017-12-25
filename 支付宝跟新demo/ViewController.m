@@ -29,13 +29,13 @@
 
 -(void)setupUI {
     UILabel * titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 20, kWidth, 20)];
-    titleLabel.text = @"支付宝首页跟新demo";
+    titleLabel.text = @"支付宝首页更新demo";
     titleLabel.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:titleLabel];
     
     self.rootView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 40, kWidth, kHeight-40)];
-    self.rootView.contentSize = CGSizeMake(0, kHeight * 5);
-    self.rootView.scrollIndicatorInsets = UIEdgeInsetsMake(310, 0, 0, 0);
+    self.rootView.contentSize = CGSizeMake(0, fg_headerViewHeight+fg_rowHeight*fg_rowNumber);
+    self.rootView.scrollIndicatorInsets = UIEdgeInsetsMake(fg_headerViewHeight, 0, 0, 0);
     self.rootView.delegate = self;
     [self.view addSubview:self.rootView];
     
@@ -55,7 +55,7 @@
     dangban.backgroundColor = [UIColor lightGrayColor];
     [topView addSubview:dangban];
     
-    Fg_tableView * tableView = [[Fg_tableView alloc] initWithFrame:CGRectMake(0, 310, kWidth, kHeight * 5 - 310) style:UITableViewStylePlain];
+    Fg_tableView * tableView = [[Fg_tableView alloc] initWithFrame:CGRectMake(0, fg_headerViewHeight, kWidth, fg_rowHeight*fg_rowNumber) style:UITableViewStylePlain];
     self.tableView = tableView;
     [self.rootView addSubview:tableView];
 }

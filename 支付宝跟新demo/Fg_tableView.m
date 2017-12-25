@@ -24,7 +24,8 @@
     if (self) {
         self.dataSource = self;
         self.delegate = self;
-        self.rowHeight = (kHeight * 5 - 310) / 20;
+        self.rowHeight = fg_rowHeight;
+//        [self registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
         self.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:nil];
     }
     return self;
@@ -48,7 +49,7 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return 20;
+    return fg_rowNumber;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -56,10 +57,11 @@
     UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
     
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:@"cell"];
     }
     
     cell.textLabel.text = [NSString stringWithFormat:@"%ld",indexPath.row];
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"看下会不会抖动---%ld",indexPath.row];
     
     return cell;
 }
